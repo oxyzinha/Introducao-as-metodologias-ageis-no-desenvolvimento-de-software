@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Open+Sans:wght@300&display=swap');
 
 :root {
@@ -24,6 +25,36 @@ body {
 }
 header, footer {
     background-color: var(--primary-bg-color);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+/*
+div h1 {
+    font-size: 70px;
+}
+div div {
+    font-size: 70px;
+}
+*/
+#google_translate_element {
+    display: inline-block;
+    margin: 10px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+
     color: #ecf0f1;
     padding: 10px;
     text-align: center;
@@ -38,22 +69,42 @@ header, footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 h1, .scrum h1 {
     color: var(--heading-color);
+
+h1 {
+    color: #2c3e50;
+
 }
 
 .scrum {
     margin-top: 20px;
     padding: 20px;
+
     background-color: var(--secondary-bg-color);
     border-radius: 8px;
 }
+
+
+    background-color: #ecf0f1;
+    border-radius: 8px;
+}
+
+.scrum h1 {
+    color: #3498db;
+}
+
 
 pre {
     white-space: pre-wrap;
 }
 
+
 iframe, .canva-container {
+
+iframe {
+
     position: relative;
     width: 100%;
     height: 100%;
@@ -63,8 +114,15 @@ iframe, .canva-container {
 }
 
 .canva-container {
+
     padding-top: 56.25%;
     box-shadow: 0 2px 8px 0 rgba(81, 63, 63, 0.16);
+
+    position: relative;
+    width: 100%;
+    padding-top: 56.2500%;
+    box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+
     margin-top: 20px;
     overflow: hidden;
     border-radius: 8px;
@@ -72,6 +130,10 @@ iframe, .canva-container {
 
 .canva-container iframe {
     position: absolute;
+
+    width: 100%;
+    height: 100%;
+
     top: 0;
     left: 0;
 }
@@ -79,13 +141,20 @@ iframe, .canva-container {
 footer {
     text-align: center;
     padding: 10px;
+
+
+    background-color: #2c3e50;
+    color: #ecf0f1;
+
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+
 #google_translate_element {
     display: inline-block;
     margin: 10px;
 }
+
 
